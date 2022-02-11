@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = Employee management system
+PROJECT_NAME = voting management system
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = main.c\
-src/employee_record_system.c
+src/main.c
 
 # All test source files
-TEST_SRC = src/employee_record_system.c\
-test/test_employee_record_system.c\
+TEST_SRC = src/main.c\
+test/test_main.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
