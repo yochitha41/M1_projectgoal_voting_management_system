@@ -1,6 +1,6 @@
 Detail report about my project
 
-This project is helpful for the students who have  . This software is having some features which I had mentioned in swot analysis
+This project is helpful for the software for the Voters to vote their nominee . This software is having some features which I had mentioned in swot analysis
 
 Features :
 
