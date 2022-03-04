@@ -24,14 +24,14 @@ typedef struct candidate{
     int votes;
 }CANDIDATE;
 
-//GLOBALS --------------------------------------------------------
+// --------------------------------------------------------
 struct currentValidID currentValidID; //stores current Valid user ID parameters
 CANDIDATE candidateArray[20]; //to store information all candidates
 int numberOfCandidates; //Total number of candidates standing for election
 char studentVotes[200]; //to store information of votes given by each student
 //----------------------------------------------------------------
 
-//To extract year from userID -- For example, userID:2018btecs00064 year:2018 
+//To extract year from userID -- For example, userID:2022btecs00064 year:2022
 int extractYear(char userID[15])
 {
     int year=0;
@@ -54,7 +54,7 @@ int extractRollNo(char userID[15])
     return rollno;
 }
 
-//Will check whether the global branch code and inputed branch code is matching or not
+//Will check whether the branch code and inputed branch code is matching or not
 int checkBranchCode(char userID[15])
 {
     char branchCode[6];
